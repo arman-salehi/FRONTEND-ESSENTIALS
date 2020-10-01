@@ -1,0 +1,136 @@
+body {
+    background-color: #F3F3F3;
+    padding: 0;
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.footer {
+    background-color: transparent;
+    padding-top: 100px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    color: #FF4E00;
+}
+
+.header {
+    text-align: center;
+    padding: 100px;
+    color: #FF4E00;
+}
+
+
+.header h1 {
+    font-size: 70px;
+}
+
+li {
+    background-color: red;
+}
+
+li.een {
+    color: white;
+    background-color: #FF4E00;
+    padding: 100px;
+    transition: 1s;
+}
+
+li.twee {
+    color: white;
+    background-color: #FF4E00;
+    padding: 100px;
+    transition: 0.1s;
+}
+
+li.drie {
+    color: white;
+    background-color: #FF4E00;
+    padding: 100px;
+    transition: 0.1s;
+}
+
+li.vier {
+    color: white;
+    background-color: #FF4E00;
+    padding: 100px;
+    transition: 0.1s;
+}
+
+li.vijf {
+    color: white;
+    background-color: #FF4E00;
+    padding: 100px;
+    transition: 0.1s;
+}
+
+li.zas {
+    color: white;
+    background-color: #FF4E00;
+    padding: 100px;
+    transition: 0.1s;
+}
+
+li.een:hover {
+    background-image: url('banana.jpg');
+    padding: 100px;
+    transition: 1s;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+li.twee:hover {
+    background-image: url('sla.jpg');
+    padding: 100px;
+    transition: 1s;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+li.drie:hover {
+    background-image: url('melk.jpg');
+    padding: 100px;
+    transition: 1s;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+li.vier:hover {
+    background-image: url('pasta.jpg');
+    padding: 100px;
+    transition: 1s;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+li.vijf:hover {
+    background-image: url('cola.jpg');
+    padding: 100px;
+    transition: 1s;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+li.zas:hover {
+    background-image: url('peren.jpg');
+    padding: 100px;
+    transition: 1s;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+ul {
+    text-align: center;
+    font-size: 30px;
+    background-color: #FF4E00;
+}
+
+
+
