@@ -31,11 +31,11 @@ body {
     float: center;
     justify-content: center;
     display: flex;
-    transition: 0.1s;
+    transition: 0.1s
 }
 
 .klik:hover {
     background-color: #FF4E00;
-    transition: 0.1s;
+    transition: 0.1s
 }
 
