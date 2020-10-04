@@ -1,0 +1,1 @@
+alert("Deze website maakt geen gebruik van cookies. Dit is puur voor het idee. Even mee spelen a.u.b :)");
