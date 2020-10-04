@@ -1,0 +1,90 @@
+body {
+    background-color: #F3F3F3;
+    padding: 0;
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+* {
+    text-decoration: none;
+}
+
+.footer {
+    background-color: transparent;
+    padding-top: 100px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    color: #FF4E00;
+}
+
+.header {
+    text-align: center;
+    padding: 100px;
+    color: #FF4E00;
+}
+
+
+.header h1 {
+    font-size: 70px;
+}
+
+.paragraaf {
+    background-color: white;
+    border-radius: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#element1{
+    background-color: aqua;
+        
+}
+
+#element2{
+    background-color: tomato;
+}
+
+#element3{
+    background-color: palegreen;
+}
+
+#element4{
+    background-color: purple;
+}
+
+.children{
+    width: 400px;
+    height:200px;
+}
+
+.child{
+    display: flex;
+}
+
+#kop1{   
+    padding-left: 100px;
+}
+
+#kop2{
+    padding-top: 50px;
+}
+
+#kop3{
+    padding-left: 320px;
+}
+
+#kop4{
+    padding-top: 120px;
+}
+
+
+
+
+
+
+
