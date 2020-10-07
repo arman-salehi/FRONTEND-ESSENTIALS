@@ -1,0 +1,87 @@
+body {
+    background-color: #F3F3F3;
+    padding: 0;
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+* {
+    text-decoration: none;
+}
+
+.footer {
+    background-color: transparent;
+    padding-top: 100px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    color: #FF4E00;
+}
+
+.header {
+    text-align: center;
+    padding: 100px;
+    color: #FF4E00;
+    margin-left: 220px;
+}
+
+
+.header h1 {
+    font-size: 70px;
+}
+
+.lorem {
+    background-color: white;
+    border-radius: 150px;
+    padding-top: 100px;
+    margin-left: 220px;
+}
+
+.lorem p {
+    padding: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+nav {
+    background-color: #FF4E00;
+    position: fixed;
+    width: 200px;
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-around;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 10px;
+}
+
+nav li a {
+    color: rgba(255, 255, 255, 0.342);
+    font-size: 20px;
+    transition: 0.1s;
+    padding-left: 12px;
+}
+
+nav li a:hover {
+    list-style-type: none;
+    display: inline;
+    color: rgba(255, 255, 255, 0.541);
+    transition: 0.1s;
+    padding-left: 12px;
+}
+
+.active {
+    color: white !important;
+    border-left: solid 2px white;
+    padding-left: 12px;
+}
+
+
+
+

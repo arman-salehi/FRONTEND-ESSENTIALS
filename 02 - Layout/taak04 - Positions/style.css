@@ -74,6 +74,7 @@ body {
 #child-4{
     background-color: gray;
     position: sticky;
+    top: 0;
 }
 
 #kop2 {
