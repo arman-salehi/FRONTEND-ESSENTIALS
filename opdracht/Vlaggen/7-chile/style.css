@@ -12,15 +12,23 @@
 
 /* Hieronder kun je gaan editen */
 
-#bovenkant{
+#boven{
     width: 900px;
     height: 300px;
     background-color: white;
 }
 
-#onderkant{
+#onder{
     width: 900px;
     height: 300px;
     background-color: red;
 }
+
+#links{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+
+
 
