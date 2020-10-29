@@ -77,7 +77,7 @@ Het antwoord krijg je niet. Bespreek deze vraag eventueel met je klasgenoten.
 ### Opdracht
 
 1. Maak een index.html met de gebruikelijke tags en daarbij ook een script tag. (je kunt de index.html van taak01 nemen ;)
-2. Maak een variabele `codingIsCool` en geef deze een boolean waarde
+2. Maak een variabele `codingIsCool` en geef deze een boolean warde
 3. Op de volgende regel geef je dezelfde variabele de andere boolean waarde
 4. console.log dit alles zodat je het resultaat kunt bekijken
 5. Maak nog twee variabele: `huidigJaartal` en `geboorteJaar`
