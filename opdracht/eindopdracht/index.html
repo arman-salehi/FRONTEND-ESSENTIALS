@@ -1,38 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-    <div class="container status">
-        
-    </div>
-    <div class="container">
-        <div class="col">
-            <div class="button" id="eten"><span>Geef eten</span></div>
-            <div class="button" id="drinken"><span>Geef Drinken</span></div>
-            <div class="button" id="aaien"><span>Aaien</span></div>
+<html>
+    <head>
+        <title>Arman Salehi - Navbar</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/116e1857d0.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="../Mondriaan/index.html">Mondriaan</a></li>
+                    <li><a href="../Vlaggen/8-denemarken/index.html">Vlaggen</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="col">
+
+        <div class="header">
+            <h1>De mondriaan was niet verplicht, dus ik raad de vlaggen aan :)</h1>
         </div>
-        <div class="response"></div>
-    </div>
-    <script>
-        
-        let persoon = {
-            voornaam : prompt("Wat is je naam?"),
-            achternaam : prompt("Wat is je achternaam?"),
-            leeftijd : prompt("Wat is je leeftijd?"),
-        };
 
+        <div class="bezoeker">
+            <h1 id="kopjenaam"></h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Naam</th>
+                        <th>E-mail</th>
+                        <th>Leeftijd</th>
+                        <th>Woonplaats</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="naam">...</td>
+                        <td id="mail">...</td>
+                        <td id="leeftijd">...</td>
+                        <td id="wonen">...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-
-        
-        
-    </script>
-</body>
+        <div class="footer">
+            <p>Met veel ❤ gemaakt door <b>Arman Salehi</b>, LCTAOO0D</p>
+        </div>
+        <script src="script.js"></script>
+    </body>
 </html>
